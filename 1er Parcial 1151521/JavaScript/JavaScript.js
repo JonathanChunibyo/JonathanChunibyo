@@ -3,5 +3,9 @@ $("#que").click(function (event) {
   });
 
 $("#sin").click(function (event) {
-    $("#con").load('Complementos/compl2.html');
+    $("#contenedor2").load('Complementos/compl2.html');
+});
+
+$("#cuidado").click(function (event) {
+    $("#contenedor3").load('Complementos/compl3.html');
 });
