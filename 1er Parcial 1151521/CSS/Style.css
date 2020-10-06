@@ -64,3 +64,6 @@ nav {
      top: 15px;
      left: 15px;
    }
+   button{
+        float: right;
+   }
