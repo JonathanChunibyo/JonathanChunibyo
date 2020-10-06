@@ -43,7 +43,7 @@ nav {
      padding: 0;
      margin: 0 15px 0 0;
      background: purple;
-     width: 100%;
+     width: 93.2%;
      float: right;
      
    }
@@ -74,3 +74,6 @@ nav {
    button{
         float: right;
    }
+    picture img {
+      width: 100%;
+    }
