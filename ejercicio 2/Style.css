@@ -35,31 +35,18 @@
     img:hover{
          transform: scale(0.9);
     }
-   body{
+   .div-fondo{
 background-image: url(Imagenes/fondo.jpg);
 background-position:center ;
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 100% 100%;
 background-attachment: fixed;
    }
 .imagen:hover {
      filter: blur(5px);
 }
 backgroung-image{
-     width: 100%;
-     height: 100%;
      opacity: 0.5;
-}
-body:before{
-     content:"";
-     height: 100%;
-     width: 100%;
-     position: absolute;
-     top: 0;
-     bottom: 0;
-     background: linear-gradient(90deg, #B2CBFF,#FFC8BC);
-     opacity: 0.4   ;
-     z-index: -3;
 }
 
 h1,p,i,h2,ul,li,a{
@@ -67,4 +54,12 @@ h1,p,i,h2,ul,li,a{
      font-weight: 1000;
      color: black;
 
+}
+.opacidad{
+     background-color: rgba(0, 0, 0, .5);
+     height: 2em;
+     width: 150px;
+     position: absolute;
+     top: 10px;
+     padding-top: 1em;
 }
