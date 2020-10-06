@@ -9,6 +9,31 @@
      box-sizing: border-box;
      
    }
+   nav {
+     padding: 1em;
+     font-family: font-family: Verdana, Geneva, sans-serif;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+   }
+   
+   nav ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     background: #333;
+   }
+   
+   nav li a {
+     color: white;
+     display: block;
+     text-decoration: none;
+     padding: .5em 1em;
+   }
+   
+   nav li a:hover {
+     background: tomato;
+     color: white;
+   }
    .footer{
      bottom:0;
      width: 100%;
@@ -57,9 +82,62 @@ h1,p,i,h2,ul,li,a{
 }
 .opacidad{
      background-color: rgba(0, 0, 0, .5);
-     height: 2em;
-     width: 150px;
+          height: 2em;
+          width: 150px;
      position: absolute;
      top: 10px;
      padding-top: 1em;
+}
+* {
+     margin:0px;
+     padding:0px;
+}
+
+#header {
+     margin:auto;
+     width:500px;
+     font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+     list-style:none;
+}
+
+.nav > li {
+     float:left;
+}
+.box {
+     display: flex;
+     flex-direction: row-reverse;
+   }
+
+.nav li a {
+     background-color:#000;
+     color:#fff;
+     text-decoration:none;
+     padding:10px 12px;
+     display:block;
+}
+
+.nav li a:hover {
+     background-color:#434343;
+}
+
+.nav li ul {
+     display:none;
+     position:absolute;
+     min-width:140px;
+}
+
+.nav li:hover > ul {
+     display:block;
+}
+
+.nav li ul li {
+     position:relative;
+}
+
+.nav li ul li ul {
+     right:-140px;
+     top:0px;
 }
