@@ -6,6 +6,9 @@
 p{
      margin-bottom: 20px ;
 }
+body{
+     background-image: linear-gradient(#A3A4D1,#C6A3D1);
+}
 .footer{
          bottom:0;
          width: 100%;
@@ -76,4 +79,10 @@ nav {
    }
     picture img {
       width: 100%;
+    }
+    img{
+         transition: all 1s linear;
+    }
+    img:hover{
+         transform: scale(0.9 );
     }
